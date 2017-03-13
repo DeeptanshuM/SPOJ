@@ -1,3 +1,3 @@
 List of problems solved
 
-[Adding Reverse Number](http://www.spoj.com/problems/ADDREV/)
+[Adding Reversed Numbers](http://www.spoj.com/problems/ADDREV/)
