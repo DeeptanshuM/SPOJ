@@ -1,9 +1,9 @@
 List of problems solved
 
--Id	Name
+Id	Name
 
--[42	Adding Reversed Numbers](http://www.spoj.com/problems/ADDREV/)
+- [42	Adding Reversed Numbers](http://www.spoj.com/problems/ADDREV/)
 
--[1112	Number Steps](http://www.spoj.com/problems/NSTEPS/)
+- [1112	Number Steps](http://www.spoj.com/problems/NSTEPS/)
 
--[11	Factorial](http://www.spoj.com/problems/FCTRL/)
+- [11	Factorial](http://www.spoj.com/problems/FCTRL/)
