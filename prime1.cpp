@@ -3,9 +3,9 @@
 #include <vector>
 using std::vector;
 
-vector<unsigned long int> getPrimes(){
+vector<unsigned long long int> getPrimes(){
   vector <bool> isPrime(32000, true);
-  vector <unsigned long int> primes;
+  vector <unsigned long long int> primes;
   
   for (unsigned int i=2; i*i <= 32000; i++){
     if(isPrime[i])
@@ -25,14 +25,14 @@ vector<unsigned long int> getPrimes(){
 }
 
 int main(){
-  vector <unsigned long int> prime = getPrimes();
-  int cases;
-  long long int m,n,i;
+  vector <unsigned long long int> prime = getPrimes();
+  unsigned int cases;
+  unsigned long long int m,n,i;
   
   std::cin >> cases;
   while(cases--){
     std::cin >> m >> n;
-    vector<long long int> num;
+    vector<unsigned long long int> num;
     
     if(m > 1 && n > 1){
       for(i = m;i <= n; i++)
@@ -43,13 +43,14 @@ int main(){
     
     for(i = 0; i<num.size();i++)
     {
-      for(long int j=0; (prime[j] * prime[j]) <= num[i]; j++)
+      for(unsigned long int j=0; (prime[j] * prime[j]) <= num[i]; j++)
       {
+        if(prime[j] != 0){
         if(((num[i] % prime[j]) == 0) && num[i]!=0)
         {
           num[i]=0;
         }
-      }
+        }}
     }
     
     for(long long int i=0;i<num.size();i++)
