@@ -1,6 +1,4 @@
-List of problems solved
-
-Id	Name
+List of problems solved (Id, Name):
 
 - [42	Adding Reversed Numbers](http://www.spoj.com/problems/ADDREV/)
 
